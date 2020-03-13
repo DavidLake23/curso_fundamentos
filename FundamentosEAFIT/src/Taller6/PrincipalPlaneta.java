@@ -2,7 +2,7 @@ package Taller6;
 
 public class PrincipalPlaneta {
 	
-	public double masaMaligna = 6.2;
+	public final double masaMaligna = 6.2;
 	public static int planetasMalignos = 0;
 	
 	@SuppressWarnings("unused")
