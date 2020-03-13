@@ -4,7 +4,7 @@ public class Planeta {
 	
 	private String nombre;
 	private double masa;
-	public int contador;
+	public static int contador = 0;
 	
 	@SuppressWarnings("unused")
 	public Planeta() {
@@ -16,6 +16,12 @@ public class Planeta {
 		
 		this.nombre = n;
 		this.masa = m;
+		contador++;
+		
+		if(m >= 5.8) {
+			
+			PrincipalPlaneta.planetasMalignos++;
+		}
 	}
 	
 	public String getNombre() {
@@ -38,7 +44,7 @@ public class Planeta {
 		this.masa = m;
 	}
 	
-	public Planeta planetaMedio(Planeta p) {
+	public static Planeta planetaMedio(Planeta p) {
 		
 		Planeta vPlaneta = new Planeta(p.getNombre(), p.getMasa() / 2);
 		return vPlaneta;
