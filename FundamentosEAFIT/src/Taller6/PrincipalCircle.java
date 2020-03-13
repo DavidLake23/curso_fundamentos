@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class PrincipalCircle {
 	
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		
 		Scanner S = new Scanner(System.in);

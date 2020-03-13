@@ -2,7 +2,8 @@ package Taller6;
 
 public class Circle {
 	
-	 private double vRadio;
+	@SuppressWarnings("unused")
+	private double vRadio;
 	 
 	 public static int vNumeroObjetos = 0;
 	 public Circle() {
@@ -16,7 +17,8 @@ public class Circle {
 		 vNumeroObjetos++;
 	 }
 	 public static int getNumberOfObjects() {
-	 return vNumeroObjetos;
+		 
+		 return vNumeroObjetos;
 	 }
 
 }
