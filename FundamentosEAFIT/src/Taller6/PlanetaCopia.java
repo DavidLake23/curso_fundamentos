@@ -16,12 +16,6 @@ public class PlanetaCopia {
 		
 		this.nombre = n;
 		this.masa = m;
-		contador++;
-		
-		if(m >= 5.8) {
-			
-			PrincipalPlaneta.planetasMalignos++;
-		}
 	}
 	
 	public String getNombre() {
