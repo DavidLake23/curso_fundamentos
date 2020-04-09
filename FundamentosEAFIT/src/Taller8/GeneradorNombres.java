@@ -15,12 +15,14 @@ public class GeneradorNombres {
 			
 			vResultado = vResultado.concat(vNombresHombre[(int)(Math.random() * vNombresHombre.length)]);
 			vResultado =vResultado.concat(" " + vApellidos[(int)(Math.random() * vApellidos.length)]);
+			vResultado = vResultado.concat(" " + vApellidos[(int)(Math.random() * vApellidos.length)]);
 			return vResultado;
 		}
 		
 		else if(vSexo.equalsIgnoreCase("mujer")) {
 			
 			vResultado = vResultado.concat(vNombresMujer[(int)(Math.random() * vNombresMujer.length)]);
+			vResultado = vResultado.concat(" " + vApellidos[(int)(Math.random() * vApellidos.length)]);
 			vResultado = vResultado.concat(" " + vApellidos[(int)(Math.random() * vApellidos.length)]);
 			return vResultado;
 		}
