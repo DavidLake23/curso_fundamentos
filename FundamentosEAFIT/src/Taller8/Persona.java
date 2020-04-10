@@ -2,6 +2,8 @@ package Taller8;
 
 public class Persona {
 	
+	//Declaración variables
+	
 	private String vNombre;
 	private String vSexo;
 	private double vPeso;
